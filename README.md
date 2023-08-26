@@ -3,3 +3,12 @@ This project harnesses the power of recommendation systems to provide highly per
 Session-based recommendation systems rely heavily on the user’s most recent interactions, rather than on the user’s historical preferences. This is especially advantageous because a user could appear anonymously—that is, a user may not be logged in or may be browsing incognito. The method can be implemented even in the absence of historical user data, and doesn’t explicitly rely on user population statistics.
 
 This project demonstrates Bravo supermarket website. Malik, a new customer, has been bought tops, shoes, and weights. Her browsing history looks like this:
+
+
+
+
+
+
+
+
+![alt text](https://github.com/NijatZeynalov/session-based-recommender-bravo-supermarket/assets/31247506/2a7bc24b-41ba-4154-bbd8-8d2f9126cad2)
