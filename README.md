@@ -1,0 +1,1 @@
+This project harnesses the power of recommendation systems to provide highly personalized and context-aware product suggestions based on users' shopping sessions without the existence of user profiles or their entire historical preferences
