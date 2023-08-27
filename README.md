@@ -7,7 +7,7 @@ Session-based recommendation systems rely heavily on the user’s most recent in
 This project demonstrates Bravo supermarket website. Malik, a new customer, has been bought eggs, corn oil, and bread. Her browsing history looks like this:
 
 
-![alt text](https://github.com/NijatZeynalov/session-based-recommender-bravo-supermarket/assets/31247506/221c92f2-0384-462d-ad8e-3e2230ec0fe3)
+![alt text](https://github-production-user-asset-6210df.s3.amazonaws.com/31247506/263505963-5a76e360-6fe4-4fba-a936-c59996315489.jpg)
 
 What should we recommend to him next?
 
@@ -22,4 +22,4 @@ In NEP, we consider a user’s history to recommend items for the future—but, 
 To visualize this, let’s go back to Rhonda’s historical browsing information, collected while she was using our site. We’ll use the highlighted items as our training set to learn product representations, which will be used to generate recommendations. Recommendations are typically based on the most recent interaction by the user, called the query item. In this case, we’ll treat the last item (“cap” in our highlighted set of items below) as the query item, and use that to generate a set of recommendations.
 
 
-![alt text](https://github.com/NijatZeynalov/session-based-recommender-bravo-supermarket/assets/31247506/2a7bc24b-41ba-4154-bbd8-8d2f9126cad2)
+![alt text](https://github.com/NijatZeynalov/session-based-recommender-bravo-supermarket/assets/31247506/e3f86be1-f146-4a51-8e54-977370a7003a)
