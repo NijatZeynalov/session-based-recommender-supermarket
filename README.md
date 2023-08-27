@@ -21,7 +21,7 @@ While NEP focuses on recommending future items based on a user's history, model 
 For visualization, let's refer back to Malik's historical browsing data collected during site usage. The highlighted items serve as our training set to learn product representations, which then generate recommendations. Recommendations are primarily based on the user's most recent interaction, referred to as the query item.
 
 
-![alt text](https://github.com/NijatZeynalov/session-based-recommender-bravo-supermarket/assets/31247506/e3f86be1-f146-4a51-8e54-977370a7003a)
+![alt text](https://github.com/NijatZeynalov/session-based-recommender-bravo-supermarket/assets/31247506/6cf0783a-2ae6-42e1-ae62-385bda418590)
 
 
 The model is trained for 100 epochs. In practice, training word2vec for as long as resources allow, or until performance reaches a plateau, is beneficial. Overfitting isn't a major concern with word2vec.
