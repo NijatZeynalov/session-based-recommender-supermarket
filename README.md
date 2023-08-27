@@ -9,17 +9,17 @@ This project demonstrates Bravo supermarket website. Malik, a new customer, has 
 
 ![alt text](https://github-production-user-asset-6210df.s3.amazonaws.com/31247506/263505963-5a76e360-6fe4-4fba-a936-c59996315489.jpg)
 
-What should we recommend to him next?
+## What should we recommend to him next?
 
 We’ll consider Malik’s recent browsing history as a “session.” Formally, a session is composed of multiple user interactions that happen together in a continuous period of time—for instance, products purchased in a single transaction.
 
-Our goal is to predict the product within Malik’s session that she will like enough to click on. This task is called next event prediction (NEP): given a series of events (Malik’s browsing history), we want to predict the next event (Malik clicking on a product we recommend to her).
+Our goal is to predict the product within Malik’s session that she will like enough to click on. __This task is called next event prediction (NEP): given a series of events (Malik’s browsing history), we want to predict the next event (Malik clicking on a product we recommend to him).__
 
 In order to solve this problem we will use word2vec algorithm, where we will treat each session as a sentence, with each item or product in the session representing a “word.” A website’s collection of user browser histories (including Malik’s) will act as the corpus. Word2vec will crunch over the entire corpus, learning relationships between products in the context of user browsing behavior. The result will be a collection of embeddings: one for each product. 
 
 In NEP, we consider a user’s history to recommend items for the future—but, when training models for recommendation, all the data is historical. In order to mimic “real life” behavior, we’ll pretend that we only have access to the user’s first n-1 purchased items, and use those to try to predict the nth item purchased.
 
-To visualize this, let’s go back to Rhonda’s historical browsing information, collected while she was using our site. We’ll use the highlighted items as our training set to learn product representations, which will be used to generate recommendations. Recommendations are typically based on the most recent interaction by the user, called the query item. In this case, we’ll treat the last item (“cap” in our highlighted set of items below) as the query item, and use that to generate a set of recommendations.
+To visualize this, let’s go back to Malik’s historical browsing information, collected while he was using our site. We’ll use the highlighted items as our training set to learn product representations, which will be used to generate recommendations. Recommendations are typically based on the most recent interaction by the user, called the query item. 
 
 
 ![alt text](https://github.com/NijatZeynalov/session-based-recommender-bravo-supermarket/assets/31247506/e3f86be1-f146-4a51-8e54-977370a7003a)
