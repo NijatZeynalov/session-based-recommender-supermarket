@@ -7,8 +7,8 @@ from utils.file_handling import pickle_load, pickle_save, absolute_filename, cre
 
 rng = default_rng(123)
 
-ECOMM_PATH = "data/ecomm/"
-ECOMM_FILENAME = "OnlineRetail.csv"
+ECOMM_PATH = "data/supermarket/"
+ECOMM_FILENAME = "supermarket_sales.csv"
 
 def load_ecomm(filename=None):
     """
