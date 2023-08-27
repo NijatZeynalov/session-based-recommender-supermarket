@@ -27,3 +27,11 @@ To visualize this, let’s go back to Malik’s historical browsing information,
 
 Data is artificially generated and can only be used for educational purposes. Model is trained for 100 epochs.
 In practice it is almost always beneficial to train word2vec for as many epochs as resources allow, or until the downstream task has reached a performance plateau—in which case, additional training does not yield an increase in the downstream metric. We shouldn’t be worried about overfitting for word2vec.
+
+## Evaluation metrics
+
+We can evaluate with the following metrics:
+
+* Recall at K (Recall@K) defined as the proportion of cases in which the ground truth item is among the top K recommendations for all test cases (that is, a test example is assigned a score of 1 if the nth item appears in the list, and 0 otherwise.)
+
+* Mean Reciprocal Rank (MRR@K), takes average on the reciprocal ranks of users’ desired items. This metric measures and favors higher ranks in the ordered list of recommendation results
