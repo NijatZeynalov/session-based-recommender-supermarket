@@ -25,8 +25,13 @@ To visualize this, let’s go back to Malik’s historical browsing information,
 ![alt text](https://github.com/NijatZeynalov/session-based-recommender-bravo-supermarket/assets/31247506/e3f86be1-f146-4a51-8e54-977370a7003a)
 
 
-Data is artificially generated and can only be used for educational purposes. Model is trained for 100 epochs.
-In practice it is almost always beneficial to train word2vec for as many epochs as resources allow, or until the downstream task has reached a performance plateau—in which case, additional training does not yield an increase in the downstream metric. We shouldn’t be worried about overfitting for word2vec.
+Model is trained for 100 epochs. In practice it is almost always beneficial to train word2vec for as many epochs as resources allow, or until the downstream task has reached a performance plateau—in which case, additional training does not yield an increase in the downstream metric. We shouldn’t be worried about overfitting for word2vec.
+
+## Dataset
+
+For this project, Data is artificially generated and can only be used for educational purposes. This dataset represents contains 34,973 purchase histories between 01/03/2022 and 31/03/2023 for 3,440 customers and 3,794 unique products. These purchase histories record transactions for each customer and detail the items that were purchased in each transaction. This is a bit different from a browsing history, as it does not contain the order of items clicked while perusing the website; it only includes the items that were eventually purchased in each transaction. However, the transactions are ordered in time, so we can treat a customer’s full transaction history as a session. Instead of predicting recommendations for what a customer might click on next, we’ll be predicting recommendations for what that customer might actually buy next. Session definitions are flexible, and care must be taken in order to properly interpret the results.
+
+![](https://github.com/NijatZeynalov/session-based-recommender-bravo-supermarket/assets/31247506/768316fa-861f-4979-836c-4c5adbbc4300)
 
 ## Evaluation metrics
 
