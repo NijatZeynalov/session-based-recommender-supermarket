@@ -1,4 +1,4 @@
-# Session-based recommendation system - Supermarket use case
+# Session-based recommendation system: Supermarket use case
 
 This project employs recommendation systems to offer highly personalized and contextually aware product suggestions during users' shopping sessions, without relying on user profiles or complete historical preferences. This report explores a simple, yet powerful, NLP-based approach (word2vec) to recommend the next item to a user.
 
