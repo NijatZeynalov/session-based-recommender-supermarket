@@ -4,7 +4,7 @@ This project employs recommendation systems to offer highly personalized and con
 
 Session-based recommendation systems prioritize recent interactions rather than a user's historical preferences. This is particularly advantageous for situations where users might be anonymous, not logged in, or browsing incognito. This method can be implemented even without access to historical user data and without explicit reliance on user population statistics.
 
-The project centers around the Bravo supermarket website and follows Malik, a new customer, who has purchased eggs, corn oil, and bread. Here's how Malik's browsing history looks:
+The project centers around the supermarket context and follows Malik, a new customer, who has purchased eggs, corn oil, and bread. Here's how Malik's browsing history looks:
 
 
 ![alt text](https://github-production-user-asset-6210df.s3.amazonaws.com/31247506/263505963-5a76e360-6fe4-4fba-a936-c59996315489.jpg)
