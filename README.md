@@ -23,3 +23,7 @@ To visualize this, let’s go back to Malik’s historical browsing information,
 
 
 ![alt text](https://github.com/NijatZeynalov/session-based-recommender-bravo-supermarket/assets/31247506/e3f86be1-f146-4a51-8e54-977370a7003a)
+
+
+Data is artificially generated and can only be used for educational purposes. Model is trained for 100 epochs.
+In practice it is almost always beneficial to train word2vec for as many epochs as resources allow, or until the downstream task has reached a performance plateau—in which case, additional training does not yield an increase in the downstream metric. We shouldn’t be worried about overfitting for word2vec.
