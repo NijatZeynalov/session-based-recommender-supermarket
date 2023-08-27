@@ -35,3 +35,6 @@ We can evaluate with the following metrics:
 * Recall at K (Recall@K) defined as the proportion of cases in which the ground truth item is among the top K recommendations for all test cases (that is, a test example is assigned a score of 1 if the nth item appears in the list, and 0 otherwise.)
 
 * Mean Reciprocal Rank (MRR@K), takes average on the reciprocal ranks of users’ desired items. This metric measures and favors higher ranks in the ordered list of recommendation results
+
+## Conclusion
+For this project, I experimented  an NLP-based algorithm—word2vec— which is known for learning low-dimensional word representations that are contextual in nature. I applied it to an supermarket sales dataset containing historical purchase transactions, to learn the structure induced by both the user’s behavior and the product’s nature to recommend the next item to be purchased. 
