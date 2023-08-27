@@ -1,7 +1,7 @@
 from gensim.models import KeyedVectors
 import pickle, os
 
-models_folder_path = "/Users/nijatz/PycharmProjects/session_based_recommender/models"
+models_folder_path = "./models"
 
 
 embeddings_path = os.path.join(models_folder_path, "embeddings.wv")
