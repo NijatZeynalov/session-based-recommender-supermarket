@@ -11,7 +11,7 @@ The project centers around the Bravo supermarket website and follows Malik, a ne
 
 ## What should we recommend to him next?
 
-We treat Malik's recent browsing history as a "session." A session encompasses several user interactions occurring continuously within a specific timeframe, such as products bought in a single transaction. Our objective is to predict the product in Malik's session that she would be interested enough to click on. This task, known as next event prediction (NEP), involves predicting the next event (Malik clicking on a recommended product).
+We treat Malik's recent browsing history as a "session." A session encompasses several user interactions occurring continuously within a specific timeframe, such as products bought in a single transaction. Our objective is to predict the product in Malik's session that he would be interested enough to click on. This task, known as next event prediction (NEP), involves predicting the next event (Malik clicking on a recommended product).
 
 
 To tackle this challenge, we employ the word2vec algorithm. In this approach, each session is treated as a sentence, with individual items or products in the session treated as "words." The collection of user browser histories on the website, including Malik's, serves as the corpus. Word2vec learns relationships between products within the context of user browsing behavior, resulting in a set of embeddings, one for each product.
